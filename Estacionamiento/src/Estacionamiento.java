@@ -16,7 +16,7 @@ public class Estacionamiento implements Serializable {
     ObjectOutputStream salida;
     ObjectInputStream leer;
     File arch = null;
-    String path = ""; //Dege ingresar una ruta para la creacion del archivo.
+    String path = "Estacionamiento.txt"; //Dege ingresar una ruta para la creacion del archivo.
 
     ///////////////METODOS///////////////////
     Estacionamiento(int fil, int col) {
